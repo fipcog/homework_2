@@ -30,10 +30,6 @@
     border-radius: 7px;
 }
 
-.input:focus {
-
-}
-
 .errorInput {
     border-color: red;
     outline-color: red;
