@@ -16,7 +16,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                     color: '#fff',
                     border: 1,
                     borderColor: '#0C2',
-                    background: 'radial-gradient(circle, rgb(0, 204, 34) 40%, rgba(255,255,255,1) 40%)',
+                    background: 'radial-gradient(circle, rgb(0, 204, 34) 25%, rgba(255,255,255,1) 25%)',
                     '&:hover': {
                         boxShadow: '0 0 0 6px rgba(0, 204, 34 , 0.16)'
                     }
