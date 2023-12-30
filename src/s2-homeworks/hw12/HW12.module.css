@@ -13,11 +13,21 @@
     --background: #212A34;
 }
 
-html {
+body {
     background-color: var(--background);
     color: var(--color);
 }
 
 .select {
+    width: 150px;
+    height: 30px;
+    padding: 0 15px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: var(--color);
 
+    option {
+        color: var(--color);
+        background-color: var(--background);
+    }
 }
