@@ -17,17 +17,19 @@
 }
 
 .secondary {
-    width: 176px;
+    /* width: 176px; */
     border: 1px solid #0066CC;
     color: #0066CC;
     background-color: transparent;
 }
 
 .default {
+    width: 132px;
     background-color: #0066CC;
 }
 
 .red {
+    width: 132px;
     background-color: #CC1439;
 }
 
@@ -43,7 +45,6 @@
     background-color: #E5F0FA;
 }
 
-
 .default:active {
     background-color: #0059B2;
 }
@@ -54,10 +55,4 @@
 
 .red:active {
     background-color: #B21232;
-}
-
-.button:disabled {
-    background-color: #8fafcb;
-    color: #7694b1;
-    cursor: inherit;
 }

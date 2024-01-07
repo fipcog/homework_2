@@ -1,22 +1,57 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 65px;
 }
 
 .responseContainer {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 60px;
 }
 
-.imageContainer {
+/* .imageContainer {
 }
 
 .image {
-}
+} */
 
 .textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 140px;
 }
 
 .code {
+    margin-bottom: 12px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .text {
+    margin-bottom: 5px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .info {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
