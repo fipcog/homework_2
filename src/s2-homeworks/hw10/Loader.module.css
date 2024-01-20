@@ -2,8 +2,8 @@
 
 .loader img {
     display: flex;
-    width: auto;
-    height: auto;
+    width: 90px;
+    height: 90px;
     animation-name: rotation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
